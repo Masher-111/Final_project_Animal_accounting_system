@@ -1,0 +1,26 @@
+  190  mkdir project
+  191  cd project
+  192  cat>home_animals
+  193  cat home_animals
+  194  cat>pack_animals
+  195  cat pack_animals
+  196  cat home_animals pack_animals > join_file
+  197  cat join_file
+  198  mv join_file friends_of_human
+  199  ls -l
+  200  mkdir new_dir
+  201  mv friends_of_human new_dir/
+  202  ls -l
+  203  cd new_dir
+  204  ls -l
+  205  sudo apt install mysql-server-8.0
+  206  systemctl status mysql.service
+  207  cd ..
+  208  ls -l
+  209  cd Downloads
+  210  ls -l
+  211  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  212  sudo apt-get update
+  213  sudo apt-get install mysql-workbench-community
+  214  sudo dpkg -r mysql-workbench-community
+  215  history
